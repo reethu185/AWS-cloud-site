@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-24 pb-10 overflow-hidden"
+      className="relative min-h-dvh flex items-center pt-24 pb-10 overflow-hidden"
     >
       {/* Background image (HOME only) */}
       <div
