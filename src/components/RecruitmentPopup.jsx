@@ -4,16 +4,14 @@ export default function RecruitmentPopup() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const seen = localStorage.getItem("recruitmentSeen");
-    if (!seen) {
-      setTimeout(() => setShow(true), 1000); // show after 1 second
-    }
-  }, []);
+  setTimeout(() => {
+    setShow(true);
+  }, 1000);
+}, []);
 
   const closePopup = () => {
-    localStorage.setItem("recruitmentSeen", "true");
-    setShow(false);
-  };
+  setShow(false);
+};
 
   if (!show) return null;
 
