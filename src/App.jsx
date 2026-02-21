@@ -15,8 +15,8 @@ export default function App() {
       {/* Recruitment Popup */}
       <RecruitmentPopup />
 
-      <div className="min-h-screen bg-navy text-off">
-        <div className="w-full min-h-screen max-w-[1920px] border border-off/20 rounded-2xl mx-auto">
+      <div className="min-h-dvh bg-navy text-off">
+        <div className="w-full min-h-dvh max-w-[1920px] border border-off/20 rounded-2xl mx-auto">
           
           <Navbar />
 
