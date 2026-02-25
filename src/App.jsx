@@ -10,10 +10,11 @@ import Footer from "./components/Footer";
 import RecruitmentPopup from "./components/RecruitmentPopup";
 
 export default function App() {
+  const recruitmentOpen = false;
   return (
     <>
       {/* Recruitment Popup */}
-      <RecruitmentPopup />
+      recruitmentOpen && <RecruitmentPopup />
 
       <div className="min-h-dvh bg-navy text-off">
           
