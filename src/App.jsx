@@ -14,7 +14,7 @@ export default function App() {
   return (
     <>
       {/* Recruitment Popup */}
-      recruitmentOpen && <RecruitmentPopup />
+      {recruitmentOpen && <RecruitmentPopup />}
 
       <div className="min-h-dvh bg-navy text-off">
           
